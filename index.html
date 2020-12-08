@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social Media Dashboard</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="https://use.fontawesome.com/5661b89466.js"></script>
+</head>
+<body>
+  <header class="header">
+      <h1 class="title">Social Media Dashboard</h1>
+      <h3 class="description">Total Followers: 23,004</h3>
+  </header>
+
+  <div class="darkmode">
+    <p>Dark Mode</p>
+    <label class="switch">
+      <input type="checkbox" id="toggle">
+      <span class="slider round"></span>
+    </label>
+  </div>
+
+  <main class="cards grid">
+
+        <div class="card fb-card">
+            <div class="id flex">
+              <img src="./images/icon-facebook.svg" alt="" class="social-icon">
+              <p class="username">@nathanf</p>
+            </div>
+
+            <div class="count">
+              <h1 class="number">1987</h1>
+              <h3 class="followers">Followers</h3>
+            </div>
+
+            <div class="daily-stat flex">
+              <img src="./images/icon-up.svg" alt="" class="arrow-icon">
+              <p class="stat-count">12 Today</p>
+            </div>
+        </div>
+
+
+        <div class="card twitter-card">
+            <div class="id flex">
+              <img src="./images/icon-twitter.svg" alt="" class="social-icon">
+              <p class="username">@nathanf</p>
+            </div>
+
+            <div class="count">
+              <h1 class="number">1044</h1>
+              <h3 class="followers">Followers</h3>
+            </div>
+
+            <div class="daily-stat flex">
+              <img src="./images/icon-up.svg" alt="" class="arrow-icon">
+              <p class="stat-count">99 Today</p>
+            </div>
+        </div>
+
+
+        <div class="card insta-card">
+            <div class="id flex">
+              <img src="./images/icon-instagram.svg" alt="" class="social-icon">
+              <p class="username">@realnathanf</p>
+            </div>
+
+            <div class="count">
+              <h1 class="number">11k</h1>
+              <h3 class="followers">Followers</h3>
+            </div>
+
+            <div class="daily-stat flex">
+              <img src="./images/icon-up.svg" alt="" class="arrow-icon">
+              <p class="stat-count">1099 Today</p>
+            </div>
+        </div>
+
+
+        <div class="card yt-card">
+            <div class="id flex">
+              <img src="./images/icon-youtube.svg" alt="" class="social-icon">
+              <p class="username">Nathan F.</p>
+            </div>
+
+            <div class="count">
+              <h1 class="number">11k</h1>
+              <h3 class="followers">Followers</h3>
+            </div>
+
+            <div class="daily-stat flex">
+              <img src="./images/icon-down.svg" alt="" class="arrow-icon">
+              <p class="stat-count">144 Today</p>
+            </div>
+        </div>
+
+  </main>
+
+  <h2 class="small-title">Overview - Today</h2>
+
+  <section class="overview-cards grid">
+
+      <div class="overview-card">
+        <h3 class="likes">Page Views</h3>
+        <img src="./images/icon-facebook.svg" alt="" class="social-icon">
+        <h2 class="ov-number">87</h2>
+        <div class="stat">
+          <img src="./images/icon-up.svg" alt="" class="arrow-icon">
+          <p class="stat-count">3%</p>
+        </div>
+      </div>
+
+      <div class="overview-card">
+        <h3 class="likes">Likes</h3>
+        <img src="./images/icon-facebook.svg" alt="" class="social-icon">
+        <h2 class="ov-number">52</h2>
+        <div class="stat">
+          <img src="./images/icon-down.svg" alt="" class="arrow-icon">
+          <p class="stat-count red">2%</p>
+        </div>
+      </div>
+
+      <div class="overview-card">
+        <h3 class="likes">Likes</h3>
+        <img src="./images/icon-instagram.svg" alt="" class="social-icon">
+        <h2 class="ov-number">5462</h2>
+        <div class="stat">
+          <img src="./images/icon-up.svg" alt="" class="arrow-icon">
+          <p class="stat-count">2257%</p>
+        </div>
+      </div>
+
+      <div class="overview-card">
+        <h3 class="likes">Profile Views</h3>
+        <img src="./images/icon-instagram.svg" alt="" class="social-icon">
+        <h2 class="ov-number">52k</h2>
+        <div class="stat">
+          <img src="./images/icon-up.svg" alt="" class="arrow-icon">
+          <p class="stat-count">1375%</p>
+        </div>
+      </div>
+
+      <div class="overview-card">
+        <h3 class="likes">Retweets</h3>
+        <img src="./images/icon-twitter.svg" alt="" class="social-icon">
+        <h2 class="ov-number">117</h2>
+        <div class="stat">
+          <img src="./images/icon-up.svg" alt="" class="arrow-icon">
+          <p class="stat-count">303%</p>
+        </div>
+      </div>
+
+      <div class="overview-card">
+        <h3 class="likes">Likes</h3>
+        <img src="./images/icon-twitter.svg" alt="" class="social-icon">
+        <h2 class="ov-number">507</h2>
+        <div class="stat">
+          <img src="./images/icon-up.svg" alt="" class="arrow-icon">
+          <p class="stat-count">553%</p>
+        </div>
+      </div>
+
+      <div class="overview-card">
+        <h3 class="likes">Likes</h3>
+        <img src="./images/icon-youtube.svg" alt="" class="social-icon">
+        <h2 class="ov-number">107</h2>
+        <div class="stat">
+          <img src="./images/icon-down.svg" alt="" class="arrow-icon">
+          <p class="stat-count red">19%</p>
+        </div>
+      </div>
+
+      <div class="overview-card">
+        <h3 class="likes">Total Views</h3>
+        <img src="./images/icon-youtube.svg" alt="" class="social-icon">
+        <h2 class="ov-number">1407</h2>
+        <div class="stat">
+          <img src="./images/icon-down.svg" alt="" class="arrow-icon">
+          <p class="stat-count red">12%</p>
+        </div>
+      </div>
+
+  </section>
+
+  <footer>
+    <p class="attribution">Challenge By Frontend Mentor | Completed by devggaurav</p>
+  </footer>
+  
+  <script src="./main.js"></script>
+</body>
+</html>
